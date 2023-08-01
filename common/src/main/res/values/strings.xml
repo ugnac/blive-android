@@ -1,0 +1,9 @@
+<resources>
+    <string name="brvah_loading">加载中...</string>
+    <string name="brvah_load_failed">加载失败，点击重试</string>
+    <string name="brvah_load_end">没有更多数据</string>
+    <string name="brvah_load_complete">点击加载更多</string>
+
+    <string name="banner_error" translatable="false">喵，网络好像有问题</string>
+    <string name="reload" translatable="false">重新加载</string>
+</resources>

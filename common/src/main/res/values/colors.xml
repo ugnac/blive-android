@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="dark" tools:ignore="MissingDefaultResource">#FF000000</color>
+    <color name="gray_dark">#999999</color>
+
+    <color name="gray_light">#cccccc</color>
+    <color name="gray_light_1">#dcdcdc</color>
+    <color name="gray_light_2">#eaeaea</color>
+    <color name="gray_light_3">#656565</color>
+    <color name="gray_light_4">#282828</color>
+    <color name="gray_light_6">#757575</color>
+    <color name="gray_light_7">#e7e7e7</color>
+
+    <color name="live_daynight_bg_color_gray">#aaaaaa</color>
+    <color name="live_daynight_bg_color_gray_press">#777777</color>
+    <color name="live_daynight_bg_color_gray_light_1">#cccccc</color>
+    <color name="live_daynight_bg_color_gray_light_1_press">#8f8f8f</color>
+    <color name="live_daynight_bg_color_gray_light_2">#e7e7e7</color>
+    <color name="live_daynight_bg_color_gray_light_2_press">#a2a2a2</color>
+    <color name="live_daynight_bg_color_gray_light_3">#e7e7e7</color>
+    <color name="live_daynight_bg_color_gray_light_3_press">#a2a2a2</color>
+    <color name="live_daynight_bg_color_gray_light_4">#f4f4f4</color>
+    <color name="live_daynight_bg_color_gray_light_4_press">#ababab</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_alpha8">#14ffffff</color>
+    <color name="white_alpha15">#26ffffff</color>
+    <color name="white_alpha30">#4cffffff</color>
+    <color name="white_alpha40">#66ffffff</color>
+    <color name="white_alpha60">#99ffffff</color>
+    <color name="white_alpha80">#ccffffff</color>
+
+    <color name="theme_color_pink">#fb7299</color>
+    <color name="theme_color_primary">#ff6699</color>
+    <color name="theme_color_secondary">#ff6699</color>
+
+    <color name="theme_color_common_bg">#f4f4f4</color>
+</resources>

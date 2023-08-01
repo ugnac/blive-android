@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_layout_height">128dp</dimen>
+
+    <dimen name="corner_radius">2dp</dimen>
+    <dimen name="corner_radius_small">2dp</dimen>
+    <dimen name="corner_radius_medium">4dp</dimen>
+</resources>

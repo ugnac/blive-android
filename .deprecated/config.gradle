@@ -1,0 +1,78 @@
+ext {
+    android = [
+            minSdk    : 24,
+            targetSdk : 33,
+            compileSdk: 33
+    ]
+
+    versions = [
+            // androidx
+            ktxcore         : '1.10.1',
+            appcompat       : '1.6.1',
+            constraintlayout: '2.1.4',
+            material        : '1.9.0',
+
+            // test
+            junit           : '4.13.2',
+            adx_junit       : '1.1.5',
+            espresso        : '3.5.1',
+
+//            // third part
+//            retrofit        : '2.9.0',
+//            fastjson        : '2.0.28',
+//            gson            : '2.10.1',
+//            protobuf_java   : '4.0.0-rc-2',
+    ]
+
+    deps = [
+            "ktxcore"                : "androidx.core:core-ktx:${versions.ktxcore}",
+            "appcompat"              : "androidx.appcompat:appcompat:${versions.appcompat}",
+            "constraintlayout"       : "androidx.constraintlayout:constraintlayout:${versions.constraintlayout}",
+            "material"               : "com.google.android.material:material:${versions.material}",
+
+            "junit"                  : "junit:junit:${versions.junit}",
+            "adx_junit"              : "androidx.test.ext:junit:${versions.adx_junit}",
+            "espresso"               : "androidx.test.espresso:espresso-core:${versions.espresso}",
+
+//            "retrofit"               : "com.squareup.retrofit2:retrofit:${versions.retrofit}",
+//            "retrofit_converter_gson": "com.squareup.retrofit2:converter-gson::${versions.retrofit}",
+//            "fastjson"               : "com.alibaba:fastjson:${versions.fastjson}",
+//            "gson"                   : "com.google.code.gson:gson:${versions.gson}",
+//            "protobuf_java"          : "com.google.protobuf:protobuf-java:${versions.protobuf_java}"
+    ]
+}
+
+//ext {
+////    arch : [:]
+////    arch.lifecycle : [
+////
+////    ]
+//    androidx : [
+//            'core-ktx'        : 'androidx.core:core-ktx:${versions.}',
+//            'appcompat'       : 'androidx.appcompat:appcompat:$appcompatVersion',
+//            'constraintlayout': 'androidx.constraintlayout:constraintlayout:$constraintlayoutVersion',
+//
+//            // androidx test
+//            'junit'           : 'androidx.test.ext:junit:$test_junit_Version',
+//            'espresso'        : 'androidx.test.espresso:espresso-core:$espressoVersion'
+//    ]
+//
+//    design : [
+//            'material': 'com.google.android.material:material:materialVersion'
+//    ]
+//
+//    google : [
+//            'gson'         : 'com.google.code.gson:gson:$gson_version',
+//            'protobuf-java': 'com.google.protobuf:protobuf-java:$protobuf_java_version'
+//    ]
+//
+//    test : [
+//            'junit': 'junit:junit:$junitVersoin'
+//    ]
+//
+//    thirdparty : [
+//            'retrofit'               : 'com.squareup.retrofit2:retrofit:$retrofitVersion',
+//            'retrofit:converter-gson': 'com.squareup.retrofit2:converter-gson::$retrofitVersion',
+//            'fastjson'               : 'com.alibaba:fastjson:$fastjsonVersion'
+//    ]
+//}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Banner">
+        <attr name="aspectRadioHeight" format="integer"/>
+        <attr name="aspectRadioWidth" format="integer"/>
+        <attr name="flipInterval" format="integer"/>
+        <attr name="layout_spacing" format="dimension"/>
+    </declare-styleable>
+    <attr name="cornerRadius" format="dimension" />
+
+    <declare-styleable name="PercentBarTextView">
+        <attr name="pb_color_bg" format="integer"/>
+        <attr name="pb_color_fg" format="integer"/>
+        <attr name="pb_corner_bg" format="dimension"/>
+        <attr name="pb_corner_fg" format="dimension"/>
+    </declare-styleable>
+
+</resources>
